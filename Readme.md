@@ -2,7 +2,7 @@
 
 In this Lesson, we'll be learning and practicing through all the content  
 of the edx course *Programming with Python and Javascript* avaiable freely  
-on the MIT opencourseware website as well as youtube. 
+on the Harvard open education website as well as youtube. 
 ___  
 
 # Progress  
