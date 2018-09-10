@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Finonacci Title </title>
+	</head>
+	<body>
+		<h1> Hi there, how was your day ? </h1>
+		<p> Find out the nth fibonacci number </p>
+		<form action={{ url_for('calculate_fibonacci') }} method='post'>
+			<input name='number_request' type='number'>
+			<button> Get em'</button>
+		</form>
+	</body>
+</html>
+
