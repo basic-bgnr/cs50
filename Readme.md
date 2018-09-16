@@ -10,7 +10,9 @@ ___
 | 1  |- [x]     | Chapter_1 |Fri Sep  7 08:17:28 NPT 2018  |Sat Sep  8 08:19:43 NPT 2018|2 days              |         | 
 | 2  |- [x]     | Chapter_2 |Fri Sep  7 08:17:28 NPT 2018  |Sat Sep  8 08:19:43 NPT 2018|2 days              |         |
 | 3  |- [x]     | Chapter_3 |Mon Sep 10 08:17:28 NPT 2018  |Mon Sep 10 19:07:30 NPT 2018|1 days              |I've left out certain portion of jinja templating but I need to go through the documentation of it in near future         |
-| 3  |- [x]     | Chapter_3 |Tue Sep 11 08:17:28 NPT 2018  |Thu Sep 13 19:07:30 NPT 2018|3 days              |I've almost entirely completed the database syntax for the sqlite3 including the portion of relational database | 
+| 4  |- [x]     | Chapter_4 |Tue Sep 11 08:17:28 NPT 2018  |Thu Sep 13 19:07:30 NPT 2018|3 days              |I've almost entirely completed the database syntax for the sqlite3 including the portion of relational database | 
+| 5  |- [x]     | Chapter_5 |Thu Sep 13 19:07:30 NPT 2018  |~Thu Sep 13 19:07:30 NPT 2018~|3 days              |I've almost entirely completed the database syntax for the sqlite3 including the portion of relational database | 
+
 ___
 
 # Additional reading content  
