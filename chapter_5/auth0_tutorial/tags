@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Actor	actor.py	/^class Actor(Base):$/;"	c
+Base	base.py	/^Base = declarative_base()$/;"	v
+ContactDetails	contact_details.py	/^class ContactDetails(Base):$/;"	c
+Movie	movie.py	/^class Movie(Base):$/;"	c
+Session	base.py	/^Session = sessionmaker(bind=engine)$/;"	v
+StuntMan	stuntmen.py	/^class StuntMan(Base):$/;"	c
+__init__	actor.py	/^    def __init__(self, name, birthday):$/;"	m	class:Actor
+__init__	contact_details.py	/^    def __init__(self, phone_number, address, actor):$/;"	m	class:ContactDetails
+__init__	movie.py	/^    def __init__(self, title, release_date): $/;"	m	class:Movie
+__init__	stuntmen.py	/^    def __init__(self,name, active, actor):$/;"	m	class:StuntMan
+__tablename__	actor.py	/^    __tablename__ = 'actors'$/;"	v	class:Actor	file:
+__tablename__	contact_details.py	/^    __tablename__ = 'contact_details'$/;"	v	class:ContactDetails	file:
+__tablename__	movie.py	/^    __tablename__ ='movies'$/;"	v	class:Movie	file:
+__tablename__	stuntmen.py	/^    __tablename__ = 'stuntmen'$/;"	v	class:StuntMan	file:
+active	stuntmen.py	/^    active = Column(Boolean)$/;"	v	class:StuntMan
+actor	contact_details.py	/^    actor = relationship('Actor', backref=backref('contact_details'))$/;"	v	class:ContactDetails
+actor	stuntmen.py	/^    actor = relationship('Actor', backref=backref('stuntmen', uselist=False))$/;"	v	class:StuntMan
+actor.py	actor.py	1;"	F
+actor_id	contact_details.py	/^    actor_id = Column(Integer, ForeignKey('actors.id'))$/;"	v	class:ContactDetails
+actor_id	stuntmen.py	/^    actor_id = Column(Integer, ForeignKey('actors.id'))  $/;"	v	class:StuntMan
+actors	movie.py	/^    actors = relationship('Actor', secondary=movie_actor_association)$/;"	v	class:Movie
+address	contact_details.py	/^    address = Column(String)$/;"	v	class:ContactDetails
+base.py	base.py	1;"	F
+birthday	actor.py	/^    birthday = Column(Date)$/;"	v	class:Actor
+bourne_identity	inserts.py	/^bourne_identity = Movie('The Bourne Identity', date(2002, 10, 11))$/;"	v
+contact_details.py	contact_details.py	1;"	F
+dwayne_contact	inserts.py	/^dwayne_contact = ContactDetails('234-125545', 'lalitpur', dwayne_johnson)$/;"	v
+dwayne_contact2	inserts.py	/^dwayne_contact2 =ContactDetails('234-125545', 'chabahil', dwayne_johnson)$/;"	v
+dwayne_johnson	inserts.py	/^dwayne_johnson = Actor('Dwayne Johnson', date(1972, 10, 10))$/;"	v
+dwayne_stuntman	inserts.py	/^dwayne_stuntman = StuntMan('John Roe', True, dwayne_johnson)$/;"	v
+engine	base.py	/^engine = create_engine('sqlite:\/\/\/simple_db.db')$/;"	v
+furious_7	inserts.py	/^furious_7 = Movie('Furious 7', date(2001, 10, 2))$/;"	v
+id	actor.py	/^    id = Column(Integer, primary_key=True)$/;"	v	class:Actor
+id	contact_details.py	/^    id = Column(Integer, primary_key=True)$/;"	v	class:ContactDetails
+id	movie.py	/^    id = Column(Integer, primary_key=True)$/;"	v	class:Movie
+id	stuntmen.py	/^    id = Column(Integer, primary_key=True)$/;"	v	class:StuntMan
+inserts.py	inserts.py	1;"	F
+matt_contact	inserts.py	/^matt_contact = ContactDetails('23-12323', 'kathmandu', matt_damon)$/;"	v
+matt_damon	inserts.py	/^matt_damon = Actor('Matt Damon', date(1970, 10, 8))$/;"	v
+matt_stuntman	inserts.py	/^matt_stuntman = StuntMan('John Doe', True, matt_damon)$/;"	v
+movie.py	movie.py	1;"	F
+movie_actor_association	movie.py	/^movie_actor_association = Table($/;"	v
+movies_query	read_database.py	/^movies_query = session.query(Movie).all()$/;"	v
+movies_query2	read_database.py	/^movies_query2 = Base.__text_signature__$/;"	v
+name	actor.py	/^    name = Column(String)$/;"	v	class:Actor
+name	stuntmen.py	/^    name = Column(String)$/;"	v	class:StuntMan
+phone_number	contact_details.py	/^    phone_number = Column(String)$/;"	v	class:ContactDetails
+read_database.py	read_database.py	1;"	F
+release_date	movie.py	/^    release_date = Column(Date)$/;"	v	class:Movie
+session	inserts.py	/^session = Session()$/;"	v
+session	read_database.py	/^session = Session()$/;"	v
+stuntmen.py	stuntmen.py	1;"	F
+title	movie.py	/^    title = Column(String)$/;"	v	class:Movie
