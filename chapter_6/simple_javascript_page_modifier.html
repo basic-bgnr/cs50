@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Javascript Tutorial </title>
+		<script>
+		        let counter = 0;
+
+			function hello(){
+				document.querySelector('h1').innerHTML = 'good bye ! world';
+				document.querySelector('#greeting').innerHTML = 'fuck off';
+				document.querySelector('#counter').innerHTML = counter++;
+				if (counter % 10 === 0){
+					alert(`counter reached ${counter}`);
+					counter = 0;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1> Hello World!</h1>
+		<h2 id=greeting> oh hai </h2>
+		<h1 id=counter> 0 </h1>
+		<button onclick='hello() '> click me !</button>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

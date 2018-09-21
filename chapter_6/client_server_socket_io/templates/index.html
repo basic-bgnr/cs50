@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> client server socket server </title>
+		<script src="{{ url_for('static', filename='index.js') }}">
+		</script>
+	</head>
+	<body>
+		<h1> Current votes </h1>
+		<ul id='list_item_display'>
+		</ul>
+		<form id='user_input'>
+			<div id='votes'>
+			<input data-vote='yes' name='vote' id='input_radio1' type='radio' >Yes </input>
+			<br>
+			<input data-vote='no' name='vote' id='input_radio2' type='radio' >No</input>
+			<br>
+			<input data-vote='maybe' name='vote' id='input_radio3' type='radio' >Maybe</input>
+			<br>
+			<input type='submit'> 
+			</div>
+		</form>
+	</body>
+</html>
+
+

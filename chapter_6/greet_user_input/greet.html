@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Javascript Tutorial </title>
+		<script>
+			function greet(){
+		            let name = document.querySelector('#name').value;
+			    document.querySelector('#name').style.color = 'red';
+                            alert(`hi ${name}`);
+		        }
+                        document.addEventListener('DOMContentLoaded', function(){
+                            document.querySelector('#btn1').onclick = greet;
+			    
+			});
+			
+		        
+		</script>
+	</head>
+	<body>
+		<h1> hi, type in your name.</h1>
+		<form>
+			<input id='name' type='text' placeholder='name'>
+			<button id='btn1'>click me !</button>
+		</form>
+	</body>
+</html>
+
