@@ -6,20 +6,17 @@
 		</script>
 	</head>
 	<body>
-		<h1> Current votes </h1>
-		<ul id='list_item_display'>
+		<h1> Current votes Display kiosk</h1>
+		
+		<ul id='list_item_display kiosk'>
+			<li> Yes: {{ yes_count }} </li>
+			<li> No: {{ no_count }} </li>
+			<li> Maybe: {{ maybe_count }} </li>
 		</ul>
-		<form id='user_input'>
-			<div id='votes'>
-			<input data-vote='yes' name='vote' id='input_radio1' type='radio' >Yes </input>
-			<br>
-			<input data-vote='no' name='vote' id='input_radio2' type='radio' >No</input>
-			<br>
-			<input data-vote='maybe' name='vote' id='input_radio3' type='radio' >Maybe</input>
-			<br>
-			<input type='submit'> 
-			</div>
-		</form>
+		<button id='btn1' data-content='yes'> Yes </button>
+		<button id='btn2' data-content='no' > NO </button>
+		<button id='btn3' data-content='maybe'> Maybe </button>
+
 	</body>
 </html>
 
