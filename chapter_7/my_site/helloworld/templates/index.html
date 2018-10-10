@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> django homepage </title>
+	</head>
+	<body>
+		<h1> Time-Zones</h1>
+		<ul>
+			{% for city in cities %}
+			<li>
+			{{ city }} 
+			</li>
+			{% endfor %}
+		</ul>
+		<a href="{% url 'index' %}"> back to orgin </a>
+	</body>
+</html>
+
