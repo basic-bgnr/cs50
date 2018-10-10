@@ -13,8 +13,8 @@ ___
 | 4  |- [x]     | Chapter_4 |Tue Sep 11 08:17:28 NPT 2018  |Thu Sep 13 19:07:30 NPT 2018|3 days              |I've almost entirely completed the database syntax for the sqlite3 including the portion of relational database | 
 | 5  |- [x]     | Chapter_5 |Thu Sep 13 19:07:30 NPT 2018  |Wed Sep 19 07:51:34 NPT 2018|6 days              |I've almost entirely completed the database syntax for the sqlalchemy database and worked with postgres database even though i have zero experience working with it|  
 | 6  |- [x]     | Chapter_6 |Wed Sep 19 11:51:54 NPT 2018  |Wed Sep 19 07:51:34 NPT 2018|6 days              |I've almost entirely completed the database syntax for the sqlalchemy database and worked with postgres database even though i have zero experience working with it~|  
-| 7  |- [x]     | Chapter_7 |Thu Sep 20 21:21:37 NPT 2018  |Mon Oct  1 20:51:11 NPT 2018|                    |Started learning javascript from the grounds up including D3 for SVG and CSS animation |  
-
+| 7  |- [x]     | Chapter_7 |Thu Sep 20 21:21:37 NPT 2018  |Mon Oct  1 20:51:11 NPT 2018|6 days              |Started learning javascript from the grounds up including D3 for SVG and CSS animation |  
+| 7  |- [x]     | Chapter_7 |Mon Oct  1 20:51:11 NPT 2018  |Wed Oct 10 08:40:21 NPT 2018|11 days             |learned django and its templating function but I've still to learn the authentication part of it. I'll leave it for completing it on later date| 
 ___
 
 # Additional reading content  
