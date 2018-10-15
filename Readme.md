@@ -1,4 +1,4 @@
-# CS50 Web Programming with Python and JavaScript  
+## CS50 Web Programming with Python and JavaScript  
 
 In this Lesson, I'll be learning and practicing through all the content of the edx course  
 *Programming with Python and Javascript* avaiable freely on the Harvard open education website as well as youtube. 
@@ -14,8 +14,17 @@ ___
 | 5  |- [x]     | Chapter_5 |Thu Sep 13 19:07:30 NPT 2018  |Wed Sep 19 07:51:34 NPT 2018|6 days              |I've almost entirely completed the database syntax for the sqlalchemy database and worked with postgres database even though i have zero experience working with it|  
 | 6  |- [x]     | Chapter_6 |Wed Sep 19 11:51:54 NPT 2018  |Wed Sep 19 07:51:34 NPT 2018|6 days              |I've almost entirely completed the database syntax for the sqlalchemy database and worked with postgres database even though i have zero experience working with it~|  
 | 7  |- [x]     | Chapter_7 |Thu Sep 20 21:21:37 NPT 2018  |Mon Oct  1 20:51:11 NPT 2018|6 days              |Started learning javascript from the grounds up including D3 for SVG and CSS animation |  
-| 7  |- [x]     | Chapter_7 |Mon Oct  1 20:51:11 NPT 2018  |Wed Oct 10 08:40:21 NPT 2018|11 days             |learned django and its templating function but I've still to learn the authentication part of it. I'll leave it for completing it on later date| 
-___
+| 8  |- [x]     | Chapter_7 |Mon Oct  1 20:51:11 NPT 2018  |Wed Oct 10 08:40:21 NPT 2018|11 days             |learned django and its templating function but I've still to learn the authentication part of it. I'll leave it for completing it on later date| 
+| 9  |- [x]     | Chapter_8 |Wed Oct 10 08:40:21 NPT 2018  |Mon Oct 15 08:19:52 NPT 2018|6 days              |learned basics of web security, horizontal/vertical scaling, database management in concurrent access.|
+
+
+The content is official completed on Mon Oct 15 08:22:52 +0545 2018, however there are lots of more content to read.  
+The course gave a gross overall on the working of a website and provided a playground to practice the common paradigm of web development.
+  
+I'm thankful to the entire CS50 team and especially to <https://www.edx.org> for making the content such easily accessible.
+  
+___  
+
 
 # Additional reading content  
 
